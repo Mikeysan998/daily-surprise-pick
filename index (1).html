@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Surprise Pick</title>
+  <style>
+    :root{--bg:#0b1220;--card:#11192b;--text:#e8eefc;--muted:#9fb0d0;--accent:#7dd3fc;--line:#22304d}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#08101d,#0b1220);color:var(--text)}
+    .wrap{max-width:980px;margin:0 auto;padding:32px 20px 56px}
+    .hero{padding:28px 24px;border:1px solid var(--line);border-radius:20px;background:rgba(17,25,43,.92)}
+    h1{margin:0 0 8px;font-size:48px}
+    .sub{color:var(--muted);margin:0 0 20px;line-height:1.6}
+    .badge{display:inline-block;padding:8px 12px;border-radius:999px;background:rgba(125,211,252,.12);color:var(--accent);border:1px solid rgba(125,211,252,.28);font-weight:700;font-size:14px}
+    .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:18px}
+    .card{background:rgba(17,25,43,.92);border:1px solid var(--line);border-radius:18px;padding:18px}
+    h2{margin:0 0 12px;font-size:20px}
+    p{margin:0 0 10px;line-height:1.65}
+    .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+    .pick{font-size:28px;font-weight:700;margin-bottom:6px}
+    .meta{color:var(--muted);font-size:14px;line-height:1.6}
+    .footer{margin-top:18px;color:var(--muted);font-size:13px}
+    .pill{display:inline-block;margin:6px 8px 0 0;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:#0e1728;color:#cfe0ff;font-size:13px}
+    a{color:var(--accent)}
+    @media (max-width:800px){.grid{grid-template-columns:1fr}h1{font-size:38px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="badge">Daily Surprise Pick</span>
+      <h1>Today’s stock idea, distilled.</h1>
+      <p class="sub">A simple daily research page for the selected stock, the thesis, the signposts, and the editor’s note. Built as a lightweight static site for free hosting.</p>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <div class="label">Today’s pick</div>
+        <div class="pick">MU — Micron Technology, Inc.</div>
+        <p class="meta">Selection time: May 26, 2026, 12:00 PM EDT</p>
+        <p class="meta">Nearest signpost: June 24, 2026 earnings</p>
+        <p style="margin-top:14px"><strong>Headline:</strong> Micron Nears Peak Expectations as AI Memory Stays Tight</p>
+        <p><strong>Hero deck:</strong> Micron is surging on AI-memory demand, but June earnings must prove the story still has room to run.</p>
+      </section>
+
+      <section class="card">
+        <h2>Archive tags</h2>
+        <span class="pill">MU</span>
+        <span class="pill">Semiconductors</span>
+        <span class="pill">AI memory</span>
+        <span class="pill">Earnings catalyst</span>
+        <span class="pill">Bull vs valuation risk</span>
+        <p class="footer">Primary sources: StockAnalysis Trending, Micron Investor Relations, Yahoo Finance earnings calendar, Bloomberg coverage.</p>
+      </section>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Publishable brief</h2>
+        <p>Micron is trading near the top of its 52-week range while public reporting points to tight AI-memory supply and strong demand into mid-2026. The bull case is that Micron is still one of the cleanest ways to express AI infrastructure demand, with management saying memory shortages may last beyond 2026 and investor materials highlighting strong recent product and manufacturing momentum. The bear case is that the stock has already moved a long way and now needs near-perfect execution to justify further upside, especially with earnings on June 24, 2026 and insider selling reported earlier in May. The next report will show whether the market is still underestimating the duration of the memory cycle or whether expectations have gotten too far ahead of fundamentals.</p>
+      </section>
+
+      <section class="card">
+        <h2>Editor’s note</h2>
+        <p>The main editorial issue is that the brief leans slightly bullish because the public facts available today are themselves heavily bullish. The strongest neutral version should explicitly note that the setup is powerful, but the burden of proof has shifted to the June 24 earnings call.</p>
+        <h2 style="margin-top:16px">Quick links</h2>
+        <p><a href="https://stockanalysis.com/trending/">StockAnalysis Trending</a></p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
